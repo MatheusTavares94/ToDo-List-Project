@@ -6,7 +6,7 @@ export const Container = styled.div`
   justify-content: start;
   width: 34rem;
   min-height: 38rem;
-  background: #161a2b;
+  background: #29292e;
   text-align: center;
   margin: 8rem auto;
   border-radius: 10px;

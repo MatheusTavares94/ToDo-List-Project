@@ -18,10 +18,17 @@ export const Container = styled.div`
     rgba(93, 12, 255, 1) 0%,
     rgba(155, 0, 250, 1) 100%
   );
-
   padding: 16px;
   border-radius: 5px;
-  width: 90%;
+  width: 90%;  
+ 
+}
+
+.content{
+  width: 80%;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  word-break: break-word;  
 }
 
 button{ 

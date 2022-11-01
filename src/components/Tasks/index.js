@@ -27,7 +27,7 @@ export function Tasks({ todos, completeTodo, deleteTodo, updateTodo }) {
             <div className={todo.isChecked ? 'row checked' :
                 'row'} key={id} >
 
-                <div key={todo.id} >
+                <div className='content' key={todo.id} >
                     {todo.text}
                 </div>
 
